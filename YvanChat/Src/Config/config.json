@@ -1,0 +1,8 @@
+{
+	"port":	1064,
+	"host":	"localhost",
+	"username":	"root",
+	"password":	"123456",
+  "database": "YvanChat",
+  "client_host": "127.0.0.1"
+}

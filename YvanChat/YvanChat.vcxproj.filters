@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="Src\Config\config.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Server\server_main.c" />
+    <ClCompile Include="Src\Common\cJSON.c" />
+    <ClCompile Include="Src\Service\Connect.c" />
+    <ClCompile Include="Src\Client\client_main.c" />
+    <ClCompile Include="Src\Service\ClientConnect.c" />
+    <ClCompile Include="Src\View\MainUI.c" />
+    <ClCompile Include="Src\Service\AccountServer.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Common\cJSON.h" />
+    <ClInclude Include="Src\Service\Connect.h" />
+    <ClInclude Include="Src\Service\ClientConnect.h" />
+    <ClInclude Include="Src\View\MainUI.h" />
+    <ClInclude Include="Src\Service\AccountServer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Src\notes.txt" />
+  </ItemGroup>
+</Project>
